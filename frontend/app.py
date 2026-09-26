@@ -179,7 +179,7 @@ if generate_button:
             "document_type": document_type,
             "parties": parties,
             "terms": terms,
-            "dates": dates
+            "effective_date": dates
         }
 
         try:
