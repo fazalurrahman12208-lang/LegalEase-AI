@@ -199,7 +199,7 @@ if generate_button:
                 data = response.json()
 
                 st.session_state.generated_document = (
-                    data.get("generated_text", "")
+                    data.get("document", "")
                 )
 
                 st.session_state.document_type = document_type
